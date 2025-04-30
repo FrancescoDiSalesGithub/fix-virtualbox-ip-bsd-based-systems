@@ -8,7 +8,7 @@ user=$(whoami)
 
 if [ "$user" == "root" ]
 then
-  ifconfig $interface ip $ip
+  ifconfig $interface inet $ip
   ifconfig $interface broadcast $ip_broadcast
 else
   echo "run this script as root"
