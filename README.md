@@ -2,7 +2,7 @@
 fix ip for freebsd or bsd based on virtualbox images with host-only adapter network card
 
 # How to run
-Just run the bash script as the following:
+Just run the bash script as root and then run the following:
 ```
 bash fix-ip.sh <interface> <ip> <ip_broadcast>
 ```
